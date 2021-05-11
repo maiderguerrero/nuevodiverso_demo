@@ -992,6 +992,12 @@ strong {
 
 /*LISTAS ORDENADAS*/
 
+#actividad .content .cke_contents ol, 
+#actividad .popover-content ol,
+#actividad .content .texto_curso ol, 
+#actividad .content .workspace ul li ol {
+    list-style: none;
+}
 
 
 #actividad .content .texto_curso .bck-ol li,
