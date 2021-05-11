@@ -357,7 +357,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 #indice .units ul li.active:not(.disabled), 
 #indice .units ul li:focus:not(.disabled) {
-    background: #e9511d;
+    background: #EA551F;
     border: none;
 }
 
@@ -382,7 +382,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #book-index #indice .unit-content a:focus,
 #indice .units ul li a:focus,
 #indice .actividades a:focus {
-    color: #e9511d;
+    color: #EA551F;
 }
 
 #book-index #indice .unit-content .actividades .item {
@@ -433,7 +433,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a
     top: 0;
     left: 0;
     z-index: 2;
-    background: #e9511d !important;
+    background: #ea551f !important;
     -webkit-box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
     -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
@@ -443,19 +443,19 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, 
 #book-index #indice .units ul li.active a {
     color: #fff;
-    background: #e9511d;
+    background: #ea551f;
 }
 
 
 #book-index #indice .units ul li a .title {
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
 #book-index #indice .unit-content .actividades .item .title {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 
@@ -463,7 +463,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     padding: 0;
     position: absolute;
     z-index: 1;
-    background: #efeeee;
+    background: #ddd;
     top: 0;
     left: 0;
     width: 100%;
@@ -473,9 +473,8 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 
 
 .libro-left ul li a.book-index.active {
-    background-color: #e9511d;
+    background-color: #ea551f;
 }
-
 
 
 
@@ -489,7 +488,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     width: 100%;
     left: 0;
     z-index: 100;
-    background-color: #e9511d;
+    background-color: #EA551F;
     padding-top: 0px;
     height: auto;
 }
@@ -497,7 +496,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 .body_clase .nuevodiverso_demo-navbar .navbar-content h2 {
     color: #fff;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 0;
     padding-top: 0px;
     padding-left: 60px;
@@ -506,6 +505,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     vertical-align: middle;
     display: table-cell;
 }
+
 
 .body_clase .nuevodiverso_demo-navbar .dropdown button {
     font-weight: 400;
@@ -522,6 +522,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     text-indent: 0px;
     line-height: 2.5rem;
     cursor: pointer;
+    font-weight: 400;
 }
 
 
@@ -861,7 +862,7 @@ body.is_app .nuevodiverso_demo-navbar.ocultar {
 }
 
 #actividad .player.audio {
-    background-image: url(images/sgelcompa2021_iconoaudio.png);
+    background-image: url(images/sgelnuevodiverso_iconoaudio.png);
     background-size: 100%;
     background-position: 0;
     background-color: transparent;
@@ -869,20 +870,7 @@ body.is_app .nuevodiverso_demo-navbar.ocultar {
     height: 26px !important;
 }
 
-.bck-title1 {
-    text-align: center;
-    color: #fff;
-    font-size: 2.1rem;
-    font-weight: bold;
-    position: relative;
-    border-left: 0px;
-    padding: 10px 15px;
-    margin-bottom: 30px;
-    font-family: Sans-serif;
-    width: 100%;
-    background-color: #E62E22;
-    display: block;
-}
+
 
 
 strong {
@@ -890,18 +878,24 @@ strong {
     font-weight: bold;
 }
 
+/*-----------------------------------ENFASIS----------------------------------*/
+
 .bck-enfasis {
-    color: #006FB9;
-    font-weight: bold;
+    color: #0092AC;
+    font-weight: normal;
     font-style: italic;
+    font-size: 1.8rem;
 }
 
+
+/*Enfasis Naranja*/
+
 .bck-enfasis-naranja {
-    color: #E23734;
-    font-weight: bold;
-    font-size: 2.3rem;
-    display: inline-block;
-    margin-bottom: 15px;
+    color: #000;
+    font-weight: normal;
+    background: #F4EC65;
+    padding: 5px 10px;
+    font-size: 1.7rem;
 }
 
 
@@ -913,6 +907,15 @@ strong {
 .content ol li, .cke_contents ol li {
     padding-left: 32px;
 }
+
+.foro_wiki_cke_text ul li, 
+.texto_curso ul li, 
+.popover-template .popover-content ul li, 
+.workspace ul li ul li, .cke_contents ul li, 
+.preview ul li {
+    padding-left: 17px;
+}
+
 
 #actividad .content .cke_contents .bck-ol-1 li,
 #actividad .content .cke_contents ul.bck-ul-1 li,
@@ -938,6 +941,7 @@ strong {
 
 
 /*Lista desordenada 1*/
+
 #actividad .content .cke_contents .bck-ul-1 li:before, 
 #actividad .content .texto_curso .bck-ul-1 li:before, 
 #actividad .content .workspace ul li .bck-ul-1 li:before {
@@ -953,14 +957,21 @@ strong {
     border-radius: 100%;
 }
 
+/*Lista desordenada 2*/
+
+
 #actividad .content .texto_curso  ul.bck-ul-2 li,
 #actividad .content .workspace ul li ul.bck-ul-2 li {
     list-style: none;
 }
 
+#actividad .content .cke_contents .bck-ul-2 li, 
+#actividad .content .texto_curso .bck-ul-2 li, 
+#actividad .content .workspace ul li .bck-ul-2 li {
+    color: #0560a0;
+}
 
 
-/*Lista desordenada 2*/
 #actividad .content .cke_contents .bck-ul-2 li:before, 
 #actividad .content .texto_curso .bck-ul-2 li:before, 
 #actividad .content .workspace ul li .bck-ul-2 li:before {
@@ -968,7 +979,7 @@ strong {
     position: absolute;
     height: 6px;
     width: 6px;
-    background-color: #C6C6C6;
+    background-color: #0560a0;
     margin-top: 10px;
     margin-left: -15px;
     margin-right: 7px;
@@ -1008,13 +1019,10 @@ strong {
 
 /*LISTA ORDENADA 1*/
 
-#actividad .content .cke_contents .bck-ol-1,
-#actividad .content .texto_curso .bck-ol-1,
+#actividad .content .cke_contents .bck-ol-1, 
+#actividad .content .texto_curso .bck-ol-1, 
 #actividad .content .workspace ul li .bck-ol-1 {
-    list-style-type: none;
-    counter-reset: bck-li-counter;
-    padding-inline-start: 20px;
-
+    padding-inline-start: 15px;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li, 
@@ -1022,14 +1030,17 @@ strong {
 #actividad .popover-content .bck-ol-1 li, 
 #actividad .content .workspace ul li .bck-ol-1 li {
     counter-increment: bck-li-counter;
-    padding-left: 0px;
+    padding-left: 0;
+    margin-left: 50px;
     position: relative;
     z-index: 0;
     color: #414141;
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 2.4rem;
+    font-weight: 600;
     font-family: sans-serif;
     text-align: left;
+    border-bottom: 5px solid #E9501B;
+    margin-bottom: 50px;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before, 
@@ -1037,27 +1048,24 @@ strong {
 #actividad .popover-content .bck-ol-1 li:before, 
 #actividad .content .workspace ul li .bck-ol-1 li:before {
     content: counter(bck-li-counter);
-    margin-top: -1px;
+    margin-top: 8px;
     padding-right: 0px;
-    color: #e62e22;
-    font-size: 2.1rem;
+    color: #E9501B;
+    font-size: 6rem;
     font-weight: bold;
     text-align: right;
     position: absolute;
-    margin-left: -33px;
+    margin-left: -35px;
     font-family: sans-serif;
-    width: 28px;
 }
+
 
 /*LISTA ORDENADA 2*/
 
-#actividad .content .cke_contents .bck-ol-2,
-#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .cke_contents .bck-ol-2, 
+#actividad .content .texto_curso .bck-ol-2, 
 #actividad .content .workspace ul li .bck-ol-2 {
-    list-style-type: none;
-    counter-reset: bck-li-counter;
-    padding-inline-start: 20px;
-    font-family: 'Conv_FuturaStd-Bold', sans-serif;
+    padding-inline-start: 10px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li, 
@@ -1065,100 +1073,7 @@ strong {
 #actividad .popover-content .bck-ol-2 li, 
 #actividad .content .workspace ul li .bck-ol-2 li {
     counter-increment: bck-li-counter;
-    padding-left: 20px;
-    position: relative;
-    z-index: 0;
-    color: #333;
-    font-size: 1.8rem;
-    font-weight: 100;
-    font-family: sans-serif;
-}
-
-#actividad .content .cke_contents .bck-ol-2 li:before, 
-#actividad .content .texto_curso ol.bck-ol-2 li:before, 
-#actividad .popover-content ol.bck-ol-2 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    content: counter(bck-li-counter);
-    margin-top: 0;
-    padding-right: 0px;
-    color: #A6A6AA;
-    font-size: 1.8rem;
-    font-weight: 600;
-    text-align: right;
-    position: absolute;
-    left: 0px;
-    font-family: inherit;
-    border: none;
-    background: inherit;
-    border-radius: inherit;
-    padding: 0;
-    width: 28px;
-    margin-left: -15px;
-}
-
-/*LISTA ORDENADA 3*/
-
-#actividad .content .cke_contents .bck-ol-3,
-#actividad .content .texto_curso .bck-ol-3,
-#actividad .content .workspace ul li .bck-ol-3 {
-    list-style-type: none;
-    counter-reset: bck-li-counter;
-    padding-inline-start: 20px;
-    
-}
-
-#actividad .content .cke_contents .bck-ol-3 li, 
-#actividad .content .texto_curso .bck-ol-3 li, 
-#actividad .popover-content .bck-ol-3 li, 
-#actividad .content .workspace ul li .bck-ol-3 li {
-    counter-increment: bck-li-counter;
-    padding-left: 5px;
-    position: relative;
-    z-index: 0;
-    font-size: 1.85rem;
-    font-weight: bold;
-    list-style-type: none;
-    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-}
-
-
-#actividad .content .cke_contents ol.bck-ol-3 li:before, 
-#actividad .content .texto_curso ol.bck-ol-3 li:before, 
-#actividad .popover-content ol.bck-ol-3 li:before, 
-#actividad .content .workspace ul li ol.bck-ol-3 li:before {
-    content: counter(bck-li-counter);
-    margin-top: -2px;
-    padding-right: 0px;
-    color: #fff;
-    font-size: 2.1rem;
-    background-color: #61C0E9;
-    border-radius: 100%;
-    font-weight: bold;
-    text-align: center;
-    width: 25px;
-    position: absolute;
-    left: -27px;
-    font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
-}
-
-
-/*LISTA ORDENADA 4*/
-
-#actividad .content .cke_contents .bck-ol-4,
-#actividad .content .texto_curso .bck-ol-4,
-#actividad .content .workspace ul li .bck-ol-4 {
-    list-style-type: none;
-    counter-reset: bck-li-counter;
-    padding-inline-start: 20px;    
-}
-
-
-#actividad .content .cke_contents .bck-ol-4 li, 
-#actividad .content .texto_curso .bck-ol-4 li, 
-#actividad .popover-content .bck-ol-4 li, 
-#actividad .content .workspace ul li .bck-ol-4 li {
-    counter-increment: bck-li-counter;
-    padding-left: 0px;
+    padding-left: 8px;
     position: relative;
     z-index: 0;
     color: #414141;
@@ -1166,6 +1081,89 @@ strong {
     font-weight: bold;
     font-family: sans-serif;
     text-align: left;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li:before, 
+#actividad .content .texto_curso ol.bck-ol-2 li:before, 
+#actividad .popover-content ol.bck-ol-2 li:before, 
+#actividad .content .workspace ul li ol.bck-ol-2 li:before {
+    content: counter(bck-li-counter);
+    margin-top: -1.8px;
+    padding-right: 0px;
+    color: #E9501B;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: right;
+    position: absolute;
+    margin-left: -3px;
+    font-family: sans-serif;
+    width: 30px;
+ }
+
+/*LISTA ORDENADA 3*/
+
+#actividad .content .cke_contents .bck-ol-3, 
+#actividad .content .texto_curso .bck-ol-3, 
+#actividad .content .workspace ul li .bck-ol-3 {
+    padding-inline-start: 11px;
+}
+
+
+#actividad .content .cke_contents .bck-ol-3 li, 
+#actividad .content .texto_curso .bck-ol-3 li, 
+#actividad .popover-content .bck-ol-3 li, 
+#actividad .content .workspace ul li .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+    padding-left: 13px;
+    position: relative;
+    z-index: 0;
+    color: #414141;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+#actividad .content .cke_contents ol.bck-ol-3 li:before, 
+#actividad .content .texto_curso ol.bck-ol-3 li:before, 
+#actividad .popover-content ol.bck-ol-3 li:before, 
+#actividad .content .workspace ul li ol.bck-ol-3 li:before {
+    content: counter(bck-li-counter, upper-alpha);
+    margin-top: -1.8px;
+    padding-right: 0px;
+    color: #878786;
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-align: right;
+    position: absolute;
+    margin-left: 8px;
+    font-family: sans-serif;
+}
+
+
+/*LISTA ORDENADA 4*/
+
+#actividad .content .cke_contents .bck-ol-4, 
+#actividad .content .texto_curso .bck-ol-4, 
+#actividad .content .workspace ul li .bck-ol-4 {
+    padding-inline-start: 7px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li, 
+#actividad .content .texto_curso .bck-ol-4 li, 
+#actividad .popover-content .bck-ol-4 li, 
+#actividad .content .workspace ul li .bck-ol-4 li {
+    counter-increment: bck-li-counter;
+    padding-left: 3px;
+    position: relative;
+    z-index: 0;
+    color: #1D1D1B;
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 6px;
+    font-family: inherit;
 }
 
 
@@ -1179,59 +1177,57 @@ strong {
 #actividad .content .workspace ul li ol.bck-ol-4 li:before,
  #actividad .content .texto_curso ol.bck-ol-4 li:before {
     content: counter(bck-li-counter);
-    margin-top: -1px;
+    margin-top: 0px;
     padding-right: 0px;
-    color: #e62e22;
-    font-size: 2.1rem;
-    font-weight: bold;
+    color: #1D1D1B;
+    font-size: 1.8rem;
+    font-weight: 800;
     text-align: right;
     position: absolute;
-    margin-left: -3px;
-    font-family: sans-serif;
-    width: 28px;
-    left: -30px;
+    left: -22px;
+    font-family: inherit;
+    width: 20px;
 }
 /**/
 
 /*LISTA ORDENADA 5*/
 
-
-#actividad .content .cke_contents .bck-ol-5,
-#actividad .content .texto_curso .bck-ol-5,
+#actividad .content .cke_contents .bck-ol-5, 
+#actividad .content .texto_curso .bck-ol-5, 
 #actividad .content .workspace ul li .bck-ol-5 {
-    list-style-type: none;
-    counter-reset: bck-li-counter;
-    padding-inline-start: 20px;
-    font-family: 'Conv_CheltenhamStd-Book', serif;
+    padding-inline-start: 14px;
 }
 
-#actividad .content .cke_contents .bck-ol-5 li,
-#actividad .content .texto_curso .bck-ol-5 li,
-#actividad .popover-content .bck-ol-5 li,
+#actividad .content .cke_contents .bck-ol-5 li, 
+#actividad .content .texto_curso .bck-ol-5 li, 
+#actividad .popover-content .bck-ol-5 li, 
 #actividad .content .workspace ul li .bck-ol-5 li {
     counter-increment: bck-li-counter;
-    padding-left: 15px;
+    padding-left: 8px;
     position: relative;
     z-index: 0;
-    font-family: 'Conv_CheltenhamStd-Book', serif;
+    color: #414141;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
 }
 
-#actividad .content .cke_contents ol.bck-ol-5 li:before,
-#actividad .content .texto_curso ol.bck-ol-5 li:before,
-#actividad .popover-content ol.bck-ol-5 li:before,
+#actividad .content .cke_contents .bck-ol-5 li:before, 
+#actividad .content .texto_curso ol.bck-ol-5 li:before, 
+#actividad .popover-content ol.bck-ol-5 li:before, 
 #actividad .content .workspace ul li ol.bck-ol-5 li:before {
-    content: counter(bck-li-counter, lower-alpha);
-    margin-top: 0px;
+    content: counter(bck-li-counter);
+    margin-top: -2.8px;
     padding-right: 0px;
-    color: #414141;
-    font-size: 1.4rem;
+    color: #67C6DC;
+    font-size: 2.5rem;
     font-weight: bold;
     text-align: right;
     position: absolute;
-    left: 0px;
-    font-family: 'Conv_CheltenhamStd-Bold', sans-serif; 
+    margin-left: -14px;
+    font-family: sans-serif;
 }
-
 
 /**/
 
@@ -1244,6 +1240,7 @@ strong {
     font-size: 18px;
     text-align: center;
 }
+
 
 .info-template .info-title {
     color: #e62e22;
@@ -1277,6 +1274,41 @@ strong {
 
 #actividad .info-button {
     background: #e62e22;
+}
+
+
+/*-------------------------------------------Seccion wb----------------------------------------*/
+
+#actividad .content .sgel_nuevodiverso_wb .cke_contents .bck-ol-2 li, 
+#actividad .content .sgel_nuevodiverso_wb .texto_curso ol.bck-ol-2 li, 
+#actividad .popover-content .sgel_nuevodiverso_wb ol.bck-ol-2 li, 
+#actividad .content .sgel_nuevodiverso_wb .workspace ul li ol.bck-ol-2 li {
+    color: #0560a0;
+}
+
+
+#actividad .content .sgel_nuevodiverso_wb .cke_contents .bck-ol-2 li:before, 
+#actividad .content .sgel_nuevodiverso_wb .texto_curso ol.bck-ol-2 li:before, 
+#actividad .popover-content .sgel_nuevodiverso_wb ol.bck-ol-2 li:before, 
+#actividad .content .sgel_nuevodiverso_wb .workspace ul li ol.bck-ol-2 li:before {
+    color: #0560a0;
+}
+
+.sgel_nuevodiverso_wb .bck-title1 {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #1C1C1A;
+    font-size: 2.8rem;
+    padding: 0;
+}
+
+.sgel_nuevodiverso_wb .bck-enfasis {
+    color: #706F6F;
+}
+
+.sgel_nuevodiverso_wb .evaluacionsumativa {
+    background-color: #B3B2B2;
 }
 
 
@@ -1514,8 +1546,9 @@ body:not(.edit) .bck-tabcontents .div-contents {
 /*CAJA 1*/
 
 .bck-box.bck-box-1 {
+    min-height: 80px;
     margin-top: 15px;
-    background-color: transparent;
+    background-color: #F6F6F6;
     padding: 10px;
     position: relative;
 }
@@ -1523,49 +1556,34 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 .bck-box-1 > .bck-title {
     border-bottom: 0px solid #eee;
-    color: #fff;
-    font-size: 2.3rem;
+    color: #ED6D21;
+    font-size: 2rem;
     font-weight: 600;
-    background-color: #BABC0F;
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
-    width: fit-content;
-    -webkit-width: fit-content;
-    -moz-width: fit-content;
-    -ms-width: fit-content;
-    -o-width: fit-content;
-    margin-left: -5px;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
     background-image: none;
-    position: absolute;
-    margin-top: -15px;
+    background-color: transparent;
 } 
 
-.bck-box-1 > .bck-title:before {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 1;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 20px solid #43352D;
-    padding: 0px;
-    margin-top: 37px;
-    margin-left: 14px;
-}
 
 .bck-box.bck-box-1 > .bck-content {
-    padding: 30px 20px 20px 20px;
-    background-color: #fff;
+    padding: 20px;
     font-weight: 400;
     font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-    border: 10px solid #E6EBC5;
+    background-color: transparent;
+}
 
+.bck-box.bck-box-1:after {
+    content: "";
+    position: absolute;
+    background-color: #ED6D21;
+    padding: 13px;
+    top: 0;
+    right: 0;
 }
 
 
@@ -1573,111 +1591,85 @@ body:not(.edit) .bck-tabcontents .div-contents {
 /*CAJA 2*/
 
 .bck-box.bck-box-2 {
+    min-height: 80px;
     margin-top: 15px;
-    background-color: transparent;
+    background-color: #F6F6F6;
     padding: 10px;
     position: relative;
 }
 
 .bck-box-2 > .bck-title {
     border-bottom: 0px solid #eee;
-    color: #fff;
-    font-size: 2.3rem;
+    color: #50AD7D;
+    font-size: 2rem;
     font-weight: 600;
-    background-color:#EC5C5D;
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
-    width: fit-content;
-    -webkit-width: fit-content;
-    -moz-width: fit-content;
-    -ms-width: fit-content;
-    -o-width: fit-content;
-    margin-left: -5px;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
     background-image: none;
-    position: absolute;
-    margin-top: -15px;
+    background-color: transparent;
 } 
 
-.bck-box-2 > .bck-title:before {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 1;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 20px solid #43352D;
-    padding: 0px;
-    margin-top: 37px;
-    margin-left: 14px;
-}
 
 .bck-box.bck-box-2 > .bck-content {
-    padding: 30px 20px 20px 20px;
-    background-color: #fff;
+    padding: 20px;
     font-weight: 400;
     font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-    border: 10px solid #FEECC2;
+    background-color: transparent;
 }
 
+.bck-box.bck-box-2:after {
+    content: "";
+    position: absolute;
+    background-color: #50AD7D;
+    padding: 13px;
+    top: 0;
+    right: 0;
+}
 
 /*CAJA 3*/
 
 .bck-box.bck-box-3 {
+    min-height: 80px;
     margin-top: 15px;
-    background-color: transparent;
+    background-color: #F6F6F6;
     padding: 10px;
     position: relative;
 }
 
 .bck-box-3 > .bck-title {
     border-bottom: 0px solid #eee;
-    color: #fff;
-    font-size: 2.3rem;
+    color: #2A8DC1;
+    font-size: 2rem;
     font-weight: 600;
-    background-color: #FECD3E;
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: 'Conv_HelveticaLTStd-Blk', sans-serif;
-    width: fit-content;
-    -webkit-width: fit-content;
-    -moz-width: fit-content;
-    -ms-width: fit-content;
-    -o-width: fit-content;
-    margin-left: -20px;
-    position: absolute;
-    margin-top: -20px;
-}
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
+    background-image: none;
+    background-color: transparent;
+} 
 
-.bck-box-3 > .bck-title:before {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 1;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 20px solid #43352D;
-    padding: 0px;
-    margin-top: 37px;
-    margin-left: 14px;
-}
 
 .bck-box.bck-box-3 > .bck-content {
-    padding: 30px 20px 20px 20px;
-    background-color: #B6DEF3;
+    padding: 20px;
     font-weight: 400;
     font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-    border: none;
+    background-color: transparent;
+}
+
+.bck-box.bck-box-3:after {
+    content: "";
+    position: absolute;
+    background-color: #2A8DC1;
+    padding: 13px;
+    top: 0;
+    right: 0;
 }
 
 /**/
@@ -1686,23 +1678,44 @@ body:not(.edit) .bck-tabcontents .div-contents {
 /*CAJA 4*/
 
 .bck-box.bck-box-4 {
-    background-color: #fff;
-    border-radius: 0px;
-    text-align: left;
-    padding: 10px 20px;
+    min-height: 80px;
+    margin-top: 15px;
+    background-color: #F6F6F6;
+    padding: 10px;
+    position: relative;
     border: none;
-    background: #D4EDFC;
 }
 
-.bck-box-4 .bck-title {
-    padding: 10px;
-    color: #009FE3;
-    font-weight: bold;
+.bck-box-4 > .bck-title {
+    border-bottom: 0px solid #eee;
+    color: #D60464;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
+    background-image: none;
+    background-color: transparent;
+} 
+
+
+.bck-box.bck-box-4 > .bck-content {
+    padding: 20px;
+    font-weight: 400;
+    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
+    background-color: transparent;
 }
 
-.bck-box.bck-box-4 .bck-content {
-    padding: 10px;
-    font-family: sans-serif;
+.bck-box.bck-box-4:after {
+    content: "";
+    position: absolute;
+    background-color: #D60464;
+    padding: 13px;
+    top: 0;
+    right: 0;
 }
 
 /**/
@@ -1711,88 +1724,47 @@ body:not(.edit) .bck-tabcontents .div-contents {
 /*Caja 5 - autoevaluacion*/
 
 .bck-box.autoevaluacion {
-    /*min-height: 80px;*/
-    margin-top: 15px;
-    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid #8A1877;
     padding: 10px;
-    position: relative;
+    background-color: #fff;
 }
 
-.bck-box.autoevaluacion:before {
-    color: #fff;
-    font-size: 2.3rem;
-    background-color: #E62E22;
-    padding: 5px 10px;
-    font-family: 'FontAwesome';
-    content: "\f05a";
-    margin-left: -20px;
-    margin-top: 35px;
-    position: absolute;
-}
-
-.bck-box.autoevaluacion:after {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: 1;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 20px solid #43352D;
-    padding: 0px;
-    margin-left: -20px;
-    top: 75px;
-}
-
-.bck-box.autoevaluacion > .bck-content {
-    padding: 20px 35px;
-    background-color: #FFE4A3;
-    font-weight: 400;
-    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-    border: none;
-    margin-top: -13px;
-    z-index: -1;
-    -webkit-box-shadow: 8px 8px 0 0 #FDC300;
-     box-shadow: 8px 8px 0 0 #FDC300;
+.bck-box.autoevaluacion > .bck-title {
+   color: #8A1877;
+   font-weight: bold;
+   font-family: sans-serif;
+   padding: 10px;
 }
 
 /*Caja 6 - coevaluacion*/
 
 .bck-box.coevaluacion {
+    border-radius: 15px;
+    border: 2px solid #F6A016;
+    padding: 10px;
     background-color: transparent;
-    padding: 5px 10px 10px 10px;
-    border-left: 10px solid #C6C6C6;
-    color: #878786;
-    font-weight: bold;
 }
 
 .bck-box.coevaluacion > .bck-title {
-    font-size: 1.9rem;
-    margin-bottom: 0px;
-    padding-left: 5px;
-
-}
-
-.bck-box.coevaluacion > .bck-content {
-    padding: 5px 5px 0px 5px;
-    font-weight: bold;
-    font-family: 'Conv_HelveticaLTStd-Roman', sans-serif;
-
+   color: #F6A016;
+   font-weight: bold;
+   font-family: sans-serif;
+   padding: 10px;
 }
 
 /*Caja 7 - heteroevaluacion*/
 
 .bck-box.heteroevaluacion {
-    background-color: #fff;
+    background-color: #FCFBE5;
     padding: 0px;
-    border: 3px solid #9D9D9C;
-    border-radius: 3px;
+    border: none;
+    border-radius: 0px;
 }
 
 .bck-box.heteroevaluacion > .bck-title {
     margin-bottom: 0px;
-    background-color: #ECECEC;
+    background-color: transparent;
     padding: 10px 10px 10px 20px;
 
 }
@@ -1804,22 +1776,10 @@ body:not(.edit) .bck-tabcontents .div-contents {
 /*Caja 8 - laboratorio2*/
 
 .bck-box.laboratorio2 {
-    background-color: #ECECEC;
-    padding: 0px;
+    background-color: #F1F1F1;
+    padding: 20px;
     border: none;
-    border-radius: 3px;
-}
-
-.bck-box.laboratorio2 > .bck-title {
-    margin-bottom: 0px;
-    background-color: transparent;
-    padding: 10px 10px 10px 20px;
-
-}
-
-.bck-box.laboratorio2 > .bck-content {  
-    padding: 15px 20px;
-    background-color: transparent;
+    border-radius: 0px;
 }
 
 
@@ -1840,41 +1800,61 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 /*ENLACES*/
 
-/**TÃ­tulos**/
+/**Titulos**/
+
+/*Título 1*/
+
+.bck-title1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: bold;
+    position: relative;
+    border-left: 0px;
+    padding: 10px 45px 10px 15px;
+    margin-bottom: 15px;
+    font-family: Sans-serif;
+    width: auto;
+    border-bottom: none;
+    background-color: #F6A016;
+    display: inline-block;
+    -webkit-box-shadow: 5px 5px 0 0 #D9D6D2;
+    box-shadow: 5px 5px 0 0 #D9D6D2;
+}
+
+
+/*Título 2 - Título base*/
 
 .titulobase {
     font-family: sans-serif;
-    color: #878786;
-    font-weight: bold;
+    color: #fff;
+    font-weight: normal;
     font-size: 4rem;
-    margin-bottom: 30px;
+    background-color: #FAB95A;
+    padding: 40px 20px 10px 30px;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: -ms-fit-content;
+    width: -o-fit-content;
+    margin-bottom: 25px;
+    display: block;
 }
 
-
-
-/**2**/
-
-.titulo-2 {
-    position: relative;
-    border-bottom-style: solid;
-    border-width: 1px;
-    font-weight: bold;
-    color: black;
-    line-height: 4.0rem;
-    padding-left: 40px;
-}
 
 /*Título 3 - Evaluacion sumativa*/
 
 .evaluacionsumativa {
-    font-weight: bold;
-    color: #E62E22;
-    font-size: 2.6rem;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: normal;
+    font-size: 4rem;
+    background-color: #67C6DC;
+    padding: 40px 20px 10px 30px;
     width: 100%;
-    border: 3px dotted #E62E22;
-    padding: 15px 10px;
+    margin-bottom: 25px;
+    display: block;
 }
-
 
 /**ImÃ¡genes-Enlaces**/
 
@@ -2283,493 +2263,7 @@ table td.bck-td-dos {
 
 /**/
 
-/*---------------------------------------------SECCIONES------------------------------------------*/
 
-/*------------SECCION AZUL sgel2021_compa_azul---------*/
-
-.sgel2021_compa_azul .bck-title1 {
-        background-color: #009FE3;
-}
-
-.sgel2021_compa_azul .evaluacionsumativa {
-    color: #009FE3;
-    border: 3px dotted #009FE3;
-}
-
-
-#actividad .content .sgel2021_compa_azul .cke_contents .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_azul .texto_curso .bck-ol-1 li:before, 
-#actividad .popover-content  .sgel2021_compa_azul .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_azul .workspace ul li .bck-ol-1 li:before {
-    color: #009FE3;
-}
-
-
-
-/*------------SECCION VERDE OSCURO sgel2021_compa_verdeoscuro---------*/
-
-.sgel2021_compa_verdeoscuro .bck-title1 {
-        background-color: #429A5C;
-}
-
-.sgel2021_compa_verdeoscuro .evaluacionsumativa {
-    color: #429A5C;
-    border: 3px dotted #429A5C;
-}
-
-
-#actividad .content .sgel2021_compa_verdeoscuro .cke_contents .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_verdeoscuro .texto_curso .bck-ol-1 li:before, 
-#actividad .popover-content  .sgel2021_compa_verdeoscuro .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_verdeoscuro .workspace ul li .bck-ol-1 li:before {
-    color: #429A5C;
-}
-
-/*------------SECCION VERDE CLARO sgel2021_compa_verdeclaro---------*/
-
-.sgel2021_compa_verdeclaro .bck-title1 {
-        background-color: #9AC23C;
-}
-
-.sgel2021_compa_verdeclaro .evaluacionsumativa {
-    color: #9AC23C;
-    border: 3px dotted #9AC23C;
-}
-
-#actividad .content .sgel2021_compa_verdeclaro .cke_contents .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_verdeclaro .texto_curso .bck-ol-1 li:before, 
-#actividad .popover-content  .sgel2021_compa_verdeclaro  .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_verdeclaro .workspace ul li .bck-ol-1 li:before {
-    color: #9AC23C;
-}
-
-/*------------SECCION NARANJA CLARO sgel2021_compa_naranjaclaro---------*/
-
-.sgel2021_compa_naranjaclaro .bck-title1 {
-        background-color: #FDC300;
-}
-
-.sgel2021_compa_naranjaclaro .evaluacionsumativa {
-    color: #FDC300;
-    border: 3px dotted #FDC300;
-}
-
-#actividad .content .sgel2021_compa_naranjaclaro .cke_contents .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_naranjaclaro .texto_curso .bck-ol-1 li:before, 
-#actividad .popover-content  .sgel2021_compa_naranjaclaro .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_naranjaclaro .workspace ul li .bck-ol-1 li:before {
-    color: #FDC300;
-}
-
-/*------------SECCION NARANJA OSCURO sgel2021_compa_naranjaoscuro---------*/
-
-.sgel2021_compa_naranjaoscuro .bck-title1 {
-        background-color: #F39200;
-}
-
-.sgel2021_compa_naranjaoscuro .evaluacionsumativa {
-    color: #F39200;
-    border: 3px dotted #F39200;
-}
-
-#actividad .content .sgel2021_compa_naranjaoscuro .cke_contents .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_naranjaoscuro .texto_curso .bck-ol-1 li:before, 
-#actividad .popover-content  .sgel2021_compa_naranjaoscuro .bck-ol-1 li:before, 
-#actividad .content .sgel2021_compa_naranjaoscuro .workspace ul li .bck-ol-1 li:before {
-    color: #F39200;
-}
-
-/*------------SECCION MORADO sgel2021_compa_morado---------*/
-
-.sgel2021_compa_morado .bck-title1 {
-        background-color: #7D6FAD;
-}
-
-
-/*------------SECCION REFLEXIONEVALUACION sgel2021_compa_reflexionevaluacion---------*/
-
-.sgel2021_compa_reflexionevaluacion .bck-title1 {
-    text-align: left;
-    font-size: 2.5rem;
-    padding: 30px 15px;
-    background-color: #0EB2E2;
-    display: block;
-    width: 100%;
-}
-
-.sgel2021_compa_reflexionevaluacion .titulobase {
-    font-weight: bold;
-    color: #0EB2E2;
-    font-size: 2.6rem;
-}
-
-/*---------------------------------------COURSETAGS--------------------------------------------------------*/
-
-/*------------------------------------------Coursetag azul---------------------------------*/
-
-/*-------------------TOC - coursetag azul--------------------------*/
-
-.coursetag_sgel2021_compa_azul #indice .units ul li.active:not(.disabled), 
-.coursetag_sgel2021_compa_azul #indice .units ul li:focus:not(.disabled) {
-    background: #4489c9;
-}
-
-
-.coursetag_sgel2021_compa_azul #indice .units ul li.hover:not(.disabled), 
-.coursetag_sgel2021_compa_azul #indice .units ul li:hover:not(.disabled), 
-.coursetag_sgel2021_compa_azul #indice .units ul li:hover:not(.disabled) {
-    background: #b1d9ff !important;
-}
-
-
-.coursetag_sgel2021_compa_azul #indice .actividades a:hover {
-    color: #4489c9;
-}
-
-
-/*------------------------------Navbar - Coursetag azul-----------------------------*/
-
-.coursetag_sgel2021_compa_azul.body_clase .nuevodiverso_demo-navbar {
-    background-color: #4489c9;
-}
-
-
-/*------------------------------Menú lateral - coursetag azul------------------------------*/
-
-.coursetag_sgel2021_compa_azul #book-index .col-main {
-    background: #4489c9 !important;
-}
-
-.coursetag_sgel2021_compa_azul .libro-left ul li a.book-index.active {
-    background-color: #4489c9;
-}
-
-.coursetag_sgel2021_compa_azul #book-index #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_sgel2021_compa_azul #book-index #indice .units ul li.active a {
-    color: #fff;
-    background: #4489c9 !important;
-}
-
-
-.coursetag_sgel2021_compa_azul #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_sgel2021_compa_azul #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_sgel2021_compa_azul #book-index #indice .unit-content .actividades .item.current {
-    color: #fff;
-    background: #97c2ea !important;
-}
-
-/*------------------------------------------Coursetag verde---------------------------------*/
-
-/*-------------------TOC - coursetag verde--------------------------*/
-
-.coursetag_sgel2021_compa_verde #indice .units ul li.active:not(.disabled), 
-.coursetag_sgel2021_compa_verde #indice .units ul li:focus:not(.disabled) {
-    background: #78992b;
-}
-
-
-.coursetag_sgel2021_compa_verde #indice .units ul li.hover:not(.disabled), 
-.coursetag_sgel2021_compa_verde #indice .units ul li:hover:not(.disabled), 
-.coursetag_sgel2021_compa_verde #indice .units ul li:hover:not(.disabled) {
-    background: #b9cc9a !important;
-}
-
-
-.coursetag_sgel2021_compa_verde #indice .actividades a:hover {
-    color: #78992b;
-}
-
-
-/*------------------------------Navbar - Coursetag verde-----------------------------*/
-
-.coursetag_sgel2021_compa_verde.body_clase .nuevodiverso_demo-navbar {
-    background-color: #78992b;
-}
-
-
-/*------------------------------Menú lateral - coursetag verde------------------------------*/
-
-.coursetag_sgel2021_compa_verde #book-index .col-main {
-    background: #78992b !important;
-}
-
-.coursetag_sgel2021_compa_verde .libro-left ul li a.book-index.active {
-    background-color: #78992b;
-}
-
-.coursetag_sgel2021_compa_verde #book-index #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_sgel2021_compa_verde #book-index #indice .units ul li.active a {
-    color: #fff;
-    background: #78992b !important;
-}
-
-.coursetag_sgel2021_compa_verde #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_sgel2021_compa_verde #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_sgel2021_compa_verde #book-index #indice .unit-content .actividades .item.current {
-    color: #fff;
-    background: #acbd85 !important;
-}
-
-/*------------------------------------------Coursetag amarillo---------------------------------*/
-
-/*-------------------TOC - coursetag amarillo--------------------------*/
-
-.coursetag_sgel2021_compa_amarillo #indice .units ul li.active:not(.disabled), 
-.coursetag_sgel2021_compa_amarillo #indice .units ul li:focus:not(.disabled) {
-    background: #d9aa00;
-}
-
-
-.coursetag_sgel2021_compa_amarillo #indice .units ul li.hover:not(.disabled), 
-.coursetag_sgel2021_compa_amarillo #indice .units ul li:hover:not(.disabled), 
-.coursetag_sgel2021_compa_amarillo #indice .units ul li:hover:not(.disabled) {
-    background: #e8d485 !important;
-}
-
-
-.coursetag_sgel2021_compa_amarillo #indice .actividades a:hover {
-    color: #d9aa00;
-}
-
-
-/*------------------------------Navbar - Coursetag amarillo-----------------------------*/
-
-.coursetag_sgel2021_compa_amarillo.body_clase .nuevodiverso_demo-navbar {
-    background-color: #d9aa00;
-}
-
-
-/*------------------------------Menú lateral - coursetag amarillo------------------------------*/
-
-.coursetag_sgel2021_compa_amarillo #book-index .col-main {
-    background: #d9aa00 !important;
-}
-
-.coursetag_sgel2021_compa_amarillo .libro-left ul li a.book-index.active {
-    background-color: #d9aa00;
-}
-
-.coursetag_sgel2021_compa_amarillo #book-index #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_sgel2021_compa_amarillo #book-index #indice .units ul li.active a {
-    color: #fff;
-    background: #d9aa00 !important;
-}
-
-.coursetag_sgel2021_compa_amarillo #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_sgel2021_compa_amarillo #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_sgel2021_compa_amarillo #book-index #indice .unit-content .actividades .item.current {
-    color: #fff;
-    background: #e8d384 !important;
-}
-
-/*------------------------------------------Coursetag rojo internacional---------------------------------*/
-
-/*-------------------TOC - coursetag rojo internacional--------------------------*/
-
-.coursetag_sgel2021_compainternacional_rojo #indice .units ul li.active:not(.disabled), 
-.coursetag_sgel2021_compainternacional_rojo #indice .units ul li:focus:not(.disabled) {
-    background: #db0b34;
-}
-
-
-.coursetag_sgel2021_compainternacional_rojo #indice .units ul li.hover:not(.disabled), 
-.coursetag_sgel2021_compainternacional_rojo #indice .units ul li:hover:not(.disabled), 
-.coursetag_sgel2021_compainternacional_rojo #indice .units ul li:hover:not(.disabled) {
-    background: #eca3b4 !important;
-}
-
-
-.coursetag_sgel2021_compainternacional_rojo #indice .actividades a:hover {
-    color: #db0b34;
-}
-
-
-/*------------------------------Navbar - Coursetag rojo internacional-----------------------------*/
-
-.coursetag_sgel2021_compainternacional_rojo.body_clase .nuevodiverso_demo-navbar {
-    background-color: #db0b34;
-}
-
-
-/*------------------------------Menú lateral - coursetag rojo internacional------------------------------*/
-
-.coursetag_sgel2021_compainternacional_rojo #book-index .col-main {
-    background: #db0b34 !important;
-}
-
-.coursetag_sgel2021_compainternacional_rojo .libro-left ul li a.book-index.active {
-    background-color: #db0b34;
-}
-
-.coursetag_sgel2021_compainternacional_rojo #book-index #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_sgel2021_compainternacional_rojo #book-index #indice .units ul li.active a {
-    color: #fff;
-    background: #db0b34 !important;
-}
-
-.coursetag_sgel2021_compainternacional_rojo #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_sgel2021_compainternacional_rojo #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_sgel2021_compainternacional_rojo #book-index #indice .unit-content .actividades .item.current {
-    color: #fff;
-    background: #ec99a9 !important;
-}
-
-/*------------------------------------------Coursetag azul internacional---------------------------------*/
-
-/*-------------------TOC - coursetag azul internacional--------------------------*/
-
-.coursetag_sgel2021_compainternacional_azul #indice .units ul li.active:not(.disabled), 
-.coursetag_sgel2021_compainternacional_azul #indice .units ul li:focus:not(.disabled) {
-    background: #00a4c2;
-}
-
-
-.coursetag_sgel2021_compainternacional_azul #indice .units ul li.hover:not(.disabled), 
-.coursetag_sgel2021_compainternacional_azul #indice .units ul li:hover:not(.disabled), 
-.coursetag_sgel2021_compainternacional_azul #indice .units ul li:hover:not(.disabled) {
-    background: #7dd0e1 !important;
-}
-
-
-.coursetag_sgel2021_compainternacional_azul #indice .actividades a:hover {
-    color: #00a4c2;
-}
-
-
-/*------------------------------Navbar - Coursetag azul internacional-----------------------------*/
-
-.coursetag_sgel2021_compainternacional_azul.body_clase .nuevodiverso_demo-navbar {
-    background-color: #00a4c2;
-}
-
-
-/*------------------------------Menú lateral - coursetag azul internacional------------------------------*/
-
-.coursetag_sgel2021_compainternacional_azul #book-index .col-main {
-    background: #00a4c2 !important;
-}
-
-.coursetag_sgel2021_compainternacional_azul .libro-left ul li a.book-index.active {
-    background-color: #00a4c2;
-}
-
-.coursetag_sgel2021_compainternacional_azul #book-index #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_sgel2021_compainternacional_azul #book-index #indice .units ul li.active a {
-    color: #fff;
-    background: #00a4c2 !important;
-}
-
-.coursetag_sgel2021_compainternacional_azul #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_sgel2021_compainternacional_azul #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_sgel2021_compainternacional_azul #book-index #indice .unit-content .actividades .item.current {
-    color: #fff;
-    background: #7cc3d0 !important;
-}
-
-/*------------------------------------------Coursetag amarillo internacional---------------------------------*/
-
-/*-------------------TOC - coursetag amarillo internacional--------------------------*/
-
-.coursetag_sgel2021_compainternacional_amarillo #indice .units ul li.active:not(.disabled), 
-.coursetag_sgel2021_compainternacional_amarillo #indice .units ul li:focus:not(.disabled) {
-    background: #ffcd00;
-}
-
-
-.coursetag_sgel2021_compainternacional_amarillo #indice .units ul li.hover:not(.disabled), 
-.coursetag_sgel2021_compainternacional_amarillo #indice .units ul li:hover:not(.disabled), 
-.coursetag_sgel2021_compainternacional_amarillo #indice .units ul li:hover:not(.disabled) {
-    background: #fdd942 !important;
-}
-
-
-.coursetag_sgel2021_compainternacional_amarillo #indice .actividades a:hover {
-    color: #ffcd00;
-}
-
-
-/*------------------------------Navbar - Coursetag amarillo internacional-----------------------------*/
-
-.coursetag_sgel2021_compainternacional_amarillo.body_clase .nuevodiverso_demo-navbar {
-    background-color: #ffcd00;
-}
-
-
-/*------------------------------Menú lateral - coursetag amarillo internacional------------------------------*/
-
-.coursetag_sgel2021_compainternacional_amarillo #book-index .col-main {
-    background: #ffcd00 !important;
-}
-
-.coursetag_sgel2021_compainternacional_amarillo .libro-left ul li a.book-index.active {
-    background-color: #ffcd00;
-}
-
-.coursetag_sgel2021_compainternacional_amarillo #book-index #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_sgel2021_compainternacional_amarillo #book-index #indice .units ul li.active a {
-    color: #fff;
-    background: #ffcd00 !important;
-}
-
-.coursetag_sgel2021_compainternacional_amarillo #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_sgel2021_compainternacional_amarillo #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_sgel2021_compainternacional_amarillo #book-index #indice .unit-content .actividades .item.current {
-    color: #fff;
-    background: #f3d96f !important;
-}
-
-
-/*------------------------------------------Coursetag verde internacional---------------------------------*/
-
-/*-------------------TOC - coursetag verde internacional--------------------------*/
-
-.coursetag_sgel2021_compainternacional_verde #indice .units ul li.active:not(.disabled), 
-.coursetag_sgel2021_compainternacional_verde #indice .units ul li:focus:not(.disabled) {
-    background: #009b67;
-}
-
-
-.coursetag_sgel2021_compainternacional_verde #indice .units ul li.hover:not(.disabled), 
-.coursetag_sgel2021_compainternacional_verde #indice .units ul li:hover:not(.disabled), 
-.coursetag_sgel2021_compainternacional_verde #indice .units ul li:hover:not(.disabled) {
-    background: #6fc7ac !important;
-}
-
-
-.coursetag_sgel2021_compainternacional_verde #indice .actividades a:hover {
-    color: #009b67;
-}
-
-
-/*------------------------------Navbar - Coursetag verde internacional-----------------------------*/
-
-.coursetag_sgel2021_compainternacional_verde.body_clase .nuevodiverso_demo-navbar {
-    background-color: #009b67;
-}
-
-
-/*------------------------------Menú lateral - coursetag verde internacional------------------------------*/
-
-.coursetag_sgel2021_compainternacional_verde #book-index .col-main {
-    background: #009b67 !important;
-}
-
-.coursetag_sgel2021_compainternacional_verde .libro-left ul li a.book-index.active {
-    background-color: #009b67;
-}
-
-.coursetag_sgel2021_compainternacional_verde #book-index #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_sgel2021_compainternacional_verde #book-index #indice .units ul li.active a {
-    color: #fff;
-    background: #009b67 !important;
-}
-
-.coursetag_sgel2021_compainternacional_verde #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_sgel2021_compainternacional_verde #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_sgel2021_compainternacional_verde #book-index #indice .unit-content .actividades .item.current {
-    color: #fff;
-    background: #7ab5a1 !important;
-}
 
 
 /*----------------------------------------------QUERIES-----------------------------------------*/
@@ -3011,4 +2505,3 @@ table td.bck-td-dos {
         display: none;
     }
 }
-
