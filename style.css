@@ -205,7 +205,7 @@ input, button, select, textarea {
 
 .body_clase #actividad .texto_curso {
     font-size: 1.8rem;
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
 }
 
 .body_clase #actividad .texto_curso li,
