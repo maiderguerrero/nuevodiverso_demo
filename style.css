@@ -349,7 +349,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 #indice .units ul li.hover:not(.disabled), 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
 #indice .units ul li:hover:not(.disabled) {
-    background: #f9b4a8;
+    background: #8ad7e9;
     border: none;
 }
 
@@ -357,7 +357,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 #indice .units ul li.active:not(.disabled), 
 #indice .units ul li:focus:not(.disabled) {
-    background: #EA551F;
+    background: #00A9CE;
     border: none;
 }
 
