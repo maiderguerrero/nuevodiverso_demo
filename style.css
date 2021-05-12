@@ -398,7 +398,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
     color: #fff;
-    background: #f18c6a !important;
+    background: #7dd1e4;
 }
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a,
@@ -433,7 +433,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a
     top: 0;
     left: 0;
     z-index: 2;
-    background: #ea551f !important;
+    background: #00a9ce !important;
     -webkit-box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
     -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
@@ -443,7 +443,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, 
 #book-index #indice .units ul li.active a {
     color: #fff;
-    background: #ea551f;
+    background: #00a9ce;
 }
 
 
@@ -473,7 +473,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 
 
 .libro-left ul li a.book-index.active {
-    background-color: #ea551f;
+    background-color: #00a9ce;
 }
 
 
@@ -488,7 +488,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
     width: 100%;
     left: 0;
     z-index: 100;
-    background-color: #EA551F;
+    background-color: #00A9CE;
     padding-top: 0px;
     height: auto;
 }
@@ -1045,7 +1045,7 @@ strong {
     font-weight: 600;
     font-family: sans-serif;
     text-align: left;
-    border-bottom: 5px solid #E9501B;
+    border-bottom: 5px solid #00a9ce;
     margin-bottom: 50px;
 }
 
@@ -1056,7 +1056,7 @@ strong {
     content: counter(bck-li-counter);
     margin-top: 8px;
     padding-right: 0px;
-    color: #E9501B;
+    color: #00a9ce;
     font-size: 6rem;
     font-weight: bold;
     text-align: right;
@@ -1096,7 +1096,7 @@ strong {
     content: counter(bck-li-counter);
     margin-top: -1.8px;
     padding-right: 0px;
-    color: #E9501B;
+    color: #00a9ce;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: right;
