@@ -1013,7 +1013,6 @@ strong {
 #actividad .content .workspace ul li ol li:before {
     content: counter(bck-li-counter);
     position: absolute;
-    width: 20px;
     text-align: right;
     color: #333;
     font-size: 1.9rem;
@@ -1190,7 +1189,7 @@ strong {
     font-weight: 800;
     text-align: right;
     position: absolute;
-    left: -22px;
+    margin-left: -25px;
     font-family: inherit;
     width: 20px;
 }
