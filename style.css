@@ -1000,27 +1000,27 @@ strong {
 }
 
 
-#actividad .content .texto_curso .bck-ol li,
-#actividad .popover-content .bck-ol li,
-#actividad .content .workspace ul li .bck-ol li {
+#actividad .content .texto_curso ol li,
+#actividad .popover-content ol li,
+#actividad .content .workspace ul li ol li {
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
 }
 
-#actividad .content .texto_curso .bck-ol li:before,
-#actividad .popover-content .bck-ol li:before,
-#actividad .content .workspace ul li .bck-ol li:before {
+#actividad .content .texto_curso ol li:before,
+#actividad .popover-content ol li:before,
+#actividad .content .workspace ul li ol li:before {
     content: counter(bck-li-counter);
     position: absolute;
     width: 20px;
     text-align: right;
-    color: #9ACB1E;
+    color: #333;
     font-size: 1.9rem;
     font-family: sans-serif;
     font-weight: normal;
     position: absolute;
-    left: -30px ;
+    margin-left: -25px;
 }
 
 /*LISTA ORDENADA 1*/
