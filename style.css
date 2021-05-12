@@ -997,6 +997,7 @@ strong {
 #actividad .content .texto_curso ol, 
 #actividad .content .workspace ul li ol {
     list-style: none;
+    counter-reset: bck-li-counter;
 }
 
 
