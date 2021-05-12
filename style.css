@@ -1788,9 +1788,16 @@ body:not(.edit) .bck-tabcontents .div-contents {
 
 .bck-box.laboratorio2 {
     background-color: #F1F1F1;
-    padding: 20px;
     border: none;
     border-radius: 0px;
+}
+
+.bck-box.laboratorio2 > .bck-title {
+    padding: 10px 10px 10px 20px;
+}
+
+.bck-box.laboratorio2 > .bck-content {
+    padding: 15px 20px;
 }
 
 
